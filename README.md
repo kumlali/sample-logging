@@ -15,9 +15,11 @@ A simple project that demonstrates how to:
 
 # Usage
 * Extract `sample-logging-0.0.1-SNAPSHOT-dist.zip`.
-* Configure `conf/log4j2.xml` if you need.
-* On Linux/Unix/Mac:
-    * Give execution right to `run.sh`: `chmod +x run.sh`
-    * Execute `run.sh`
-* On Windows:
-** Execute `run.bat`
+* Update `conf/log4j2.xml` to enable File and/or Gelf appender, if you need.
+* Execute the script:
+    * On Linux/Unix/Mac:
+        * Give execution right to `run.sh`: `chmod +x run.sh`
+        * Execute `run.sh`
+    * On Windows:
+        * Execute `run.bat`
+* If you did not update `conf/log4j2.xml`, you should see an error message on the console.
